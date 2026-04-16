@@ -1,10 +1,11 @@
 import { SectionHeading } from '../components/SectionHeading'
 
 const credentials = [
-  '30 anos e atuação como personal trainer há mais de 5 anos',
-  'Bacharel em Educação Física pela FEPI',
-  'Pós-graduações em Biomecânica, Treinamento Esportivo e Biomecânica Aplicada ao Movimento',
-  'Mais de 400 alunos atendidos em objetivos como emagrecimento, hipertrofia, condicionamento e reabilitação',
+  'Mais de 5 anos trabalhando com consultoria online',
+  'Personal trainer graduado pela FEPI (fundação de ensino e pesquisa Itajubá)',
+  'Especializações em Biomecânica e Treinamento Desportivo',
+  'Mais de 400 alunos atendidos com diferentes objetivos',
+  'Experiência com emagrecimento, hipertrofia e reabilitação',
 ]
 
 export const AboutSection = () => {
@@ -12,28 +13,25 @@ export const AboutSection = () => {
     <section className="section" id="sobre">
       <div className="container about">
         <SectionHeading
-          description="Uma consultoria pensada para quem quer resultado com técnica, personalização e uma rotina viável de manter no longo prazo."
+          description="Treinos pensados pra você, com base técnica, experiência real e acompanhamento próximo tudo no online."
           eyebrow="Sobre Antônio Júnior"
-          title="Autoridade construída com formação sólida, experiência prática e atendimento individual."
+          title="Autoridade construída com base sólida, experiência prática e acompanhamento individual."
         />
 
         <div className="about__grid">
           <div className="about__copy">
             <p className="about__panel-title">Meu objetivo</p>
             <p>
-              O objetivo da consultoria é transformar metas soltas em um plano claro, seguro e
-              personalizado, respeitando o momento atual, a rotina e a individualidade de cada
-              aluno.
+              Meu objetivo é fazer com que você alcance o resultado que busca através de um plano de treino pensado para a sua realidade, seu nível e sua rotina. A ideia não é complicar, mas sim criar algo simples, prático e eficiente, que você realmente consiga seguir no dia a dia.
+              Com consistência, ajustes estratégicos e um método bem estruturado, você evolui de forma contínua, melhora seu estilo de vida e constrói resultados que se mantêm ao longo do tempo.
             </p>
             <p>
-              A proposta é tornar a jornada fitness mais simples de sustentar no longo prazo, com
-              treinos ajustados ao contexto real, evolução acompanhada de perto e decisões guiadas
-              por estratégia, técnica e constância.
+             Mais do que resultados rápidos, o foco é construir um caminho sustentável, com treinos que fazem sentido no seu dia a dia e geram evolução real no longo prazo.
             </p>
           </div>
 
           <div className="about__panel">
-            <p className="about__panel-title">Base profissional</p>
+            <p className="about__panel-title">Experiência e formação</p>
             <ul>
               {credentials.map((item) => (
                 <li key={item}>{item}</li>

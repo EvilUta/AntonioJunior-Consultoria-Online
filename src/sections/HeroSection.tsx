@@ -29,7 +29,7 @@ export const HeroSection = ({ instagramLink, whatsappLink }: HeroSectionProps) =
             <div className="hero__intro">
               <img alt="Logo Antônio Júnior" className="hero__mobile-logo" src="/logo.png" />
               <p className="section-tag">Consultoria personalizada para resultados reais</p>
-              <h1>Antônio Júnior | Consultoria Personalizada Online</h1>
+              <h1>Antônio Júnior | Consultoria Online Personalizada</h1>
               <p className="hero__lead">
                 Consultoria individual com estratégia, ajustes e acompanhamento contínuo para
                 extrair o máximo do seu potencial físico.

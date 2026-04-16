@@ -50,7 +50,7 @@ export const SocialProofSection = ({
         <SectionHeading
           description="Sem promessas , apenas um método estruturado que funciona na prática."
           eyebrow="Prova social"
-          title="Quem aplica, evolui. Veja quem já mudou de vida."
+          title="Método seguido, resultado comprovado."
         />
 
         <div className="testimonials-layout">
