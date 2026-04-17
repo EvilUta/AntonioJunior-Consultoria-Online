@@ -16,7 +16,7 @@ const proofCards = [
   },
   {
     eyebrow: 'App de Treino',
-    text: 'Seu treino organizado em app, com execução guiada e ajustes personalizados para garantir evolução.',
+    text: 'Seu treino organizado em app, com execução guiada e ajustes personalizados para garantir sua evolução.',
   },
 ]
 
